@@ -18,7 +18,7 @@ HomeWork
 4. applicationId
 
 
-❓app_name
+:star:app_name
 
 ### Question 3
 #### Which tool do you use to create a new emulator?
