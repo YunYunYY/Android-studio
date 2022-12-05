@@ -7,7 +7,7 @@
     tools:context="com.example.hellotoast1.MainActivity">
 
     <Button
-        android:id="@+id/Button_toast"
+        android:id="@+id/button_toast"
         android:layout_width="478dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/purple_200"
@@ -29,10 +29,10 @@
         android:text="@string/button_label_count"
         android:textColor="@android:color/black"
         android:textSize="60sp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/Button_toast"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button_toast"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/Button_toast" />
+        app:layout_constraintStart_toEndOf="@+id/button_toast" />
 
     <TextView
         android:id="@+id/show_count"
@@ -47,6 +47,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Button_toast" />
+        app:layout_constraintTop_toBottomOf="@+id/button_toast" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
